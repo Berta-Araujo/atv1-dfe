@@ -15,7 +15,6 @@ inputNome.addEventListener('input', (e) => {
 
 
 // EventListener - "Estou ouvindo o tempo todo, cada comando realizado no campo"
-
 inputEmail.addEventListener('input', () => {
     const email = inputEmail.value;
     if(email.includes('@') && email.includes('.')){
@@ -31,8 +30,7 @@ inputEmail.addEventListener('input', () => {
     }
 });
 
-//esse usamos select ao invés de input 
-
+//esse usamos select ao invés de input , pq? 
 selectCategoria.addEventListener('change', (e) => {
     const cat = e.target.value;
     previewCategoria.textContent = cat || "Não Definida ";
