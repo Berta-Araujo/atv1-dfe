@@ -13,6 +13,26 @@ inputNome.addEventListener('input', (e) => {
     "---";
 });
 
+//modificando o botão o que faltou ?
+
+btnModificar.addEventListener('click'. () => {
+
+    if (flag === 0) {
+        card1.classList.add ('bg-pink');
+        card2.classList.add ('bg-blue');
+        card3.classList.add ('bg-gray');
+        flag = 1;
+    }
+    else {
+        card1.classList.remove ('bg-pink');
+        card2.classList.remove ('bg-blue');
+        card3.classList.remove ('bg-gray');
+        flag = 0;
+
+    }
+    
+});
+
 
 // EventListener - "Estou ouvindo o tempo todo, cada comando realizado no campo"
 inputEmail.addEventListener('input', () => {
