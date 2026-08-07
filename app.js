@@ -51,3 +51,5 @@ selectCategoria.addEventListener('change', (e) => {
 
 })
 
+//Movimentação utilizando JS , utilizado em jogos por exemplo
+const player = document.getElementById ('player');
